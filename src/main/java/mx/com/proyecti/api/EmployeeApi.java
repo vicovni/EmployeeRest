@@ -28,6 +28,9 @@ public class EmployeeApi {
 	
 	EmployeeServiceProxy proxy = new EmployeeServiceProxy();
 	
+	public EmployeeApi() {
+		// TODO Auto-generated constructor stub
+	}
 	@RequestMapping("/")
 	public String hello() {
 		return "hello world";
